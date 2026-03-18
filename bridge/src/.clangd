@@ -1,0 +1,9 @@
+CompileFlags:
+  # Tell clangd to emulate MSVC
+  Compiler: clang-cl
+  Add:
+    - --target=x86_64-pc-windows-msvc
+    - /std:c++20
+    - /EHsc
+    - /I C:\Users\dcush\OneDrive\Documents\Libraries2\SFML-2.6.1\include
+    # any other /I or /D flags your build always needs
